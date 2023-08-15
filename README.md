@@ -11,6 +11,9 @@ cd firebase_crud_react_redux_ts
 ```
 npm i firebase
 ```
+```
+npm i dotenv
+```
 ### Create a .env file with all the database info
 ```
 REACT_APP_API_KEY= ""
