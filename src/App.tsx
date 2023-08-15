@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Crud from './Crud';
+import Crud from './FireStoreCrud';
 
 function App() {
   return (

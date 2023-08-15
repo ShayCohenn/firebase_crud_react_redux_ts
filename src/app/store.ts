@@ -1,9 +1,11 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import usersReducer from '../redux/userSlice';
+import usersReducer from '../reduxSlices/userSlice';
+import fileReducer from '../reduxSlices/storageSlice'
 
 export const store = configureStore({
   reducer: {
     users: usersReducer,
+    files: fileReducer,
   },
 });
 

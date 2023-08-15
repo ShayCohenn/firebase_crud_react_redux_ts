@@ -8,11 +8,8 @@ import {
     addUser,
     updateUser,
     deleteUser,
-} from './redux/userSlice';
-import { firebaseConfig } from './firebaseConfig';
-
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+} from './reduxSlices/userSlice';
+import db from './firebaseConfig';
 
 interface User{
     id:string,
